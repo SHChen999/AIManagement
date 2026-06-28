@@ -59,8 +59,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/yourusername/family-med-cabinet.git
-cd family-med-cabinet
+git clone https://github.com/SHChen999/AIManagement.git
 ```
 
 ### 2. 创建虚拟环境
@@ -81,15 +80,7 @@ pip install -r requirements.txt
 
 ### 4. 配置环境变量
 
-```bash
-# Windows
-copy .env.example .env
-
-# macOS / Linux
-cp .env.example .env
-```
-
-编辑 `.env`，填入你自己的 API Key、数据库密码和 SMTP 邮箱配置（`.env` 已被 `.gitignore` 忽略，不会提交到仓库）。
+编辑 `.env`，填入你自己的 API Key、数据库密码和 SMTP 邮箱配置。
 
 ### 5. 启动服务
 
